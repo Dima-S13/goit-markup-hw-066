@@ -669,14 +669,13 @@ color: var(--body-text);
 }
 .modal-form {
 
-
 }
 .label-field {
 display: flex;
 flex-direction: column;
 gap: 8px;
 position: relative;
-margin: 8px 0; 
+margin-bottom: 8px;
 }
 .field-input {
   height: 40px;
