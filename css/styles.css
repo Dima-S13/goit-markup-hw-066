@@ -593,7 +593,8 @@ a {
   align-items: center;
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  transition: background-color var(--time-animation), fill var(--time-animation);
+  transition: background-color var(--time-animation), 
+  fill var(--time-animation);
 }
 .close-btn-modal:hover,
 .close-btn-modal:focus {
@@ -626,7 +627,6 @@ font-size: 14px;
   border: 1px solid var(--customers-icon-color);
   border-radius: 4px;
   margin-bottom: 4px;
-
   font-size: 18px;  
   outline: 1px solid transparent;
   box-shadow: 2px;
@@ -662,6 +662,7 @@ height: 120px;
 outline: none;
 margin-bottom: 20px;
 transition: border-color var(--time-animation);
+border-radius: 4px;
 }
 .comments-form:focus{
   border-color: var(--button-list-color);
