@@ -667,16 +667,14 @@ margin-top: 56px;
 color: var(--body-text);
 }
 .modal-form {
- margin-top: 16px;
+
 
 }
 .label-field {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  margin-top: 4px;
-  position: relative;
-  
+display: flex;
+flex-direction: column;
+gap: 8px;
+position: relative;
 }
 .field-input {
   height: 40px;
@@ -686,7 +684,8 @@ color: var(--body-text);
   outline: 1px solid transparent;
   box-shadow: 2px;
   transition:  border-color var(--time-animation);
-  }
+  padding: 0 38px;
+    }
 .field-input:focus+.input-icon{
 fill: var(--button-list-color);
 } 
@@ -697,7 +696,7 @@ border-color: var(--button-list-color);
 font-size: 12px;
 line-height: 1.17;
 color: var(--customers-icon-color);
-margin-top: 4px;
+padding-top: 12px;
 }
 
 .input-icon{
