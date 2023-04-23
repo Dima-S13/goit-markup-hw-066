@@ -658,49 +658,52 @@ color: var(--background-color);
 }
 /* ========= Modal marking =========== */
 .modal-title {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
 display: block;
-font-size: 14px;
 text-align: center;
-text-transform: uppercase;
 margin-top: 56px;
+color: var(--body-text);
 }
 .modal-form {
- 
+ margin-top: 16px;
+
 }
 .label-field {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 4px;
+  margin-top: 4px;
   position: relative;
+  
 }
 .field-input {
   height: 40px;
   border: 1px solid var(--customers-icon-color);
   border-radius: 4px;
-  margin-bottom: 4px;
   font-size: 18px;  
   outline: 1px solid transparent;
   box-shadow: 2px;
   transition:  border-color var(--time-animation);
-}
+  }
 .field-input:focus+.input-icon{
- fill: var(--button-list-color);
+fill: var(--button-list-color);
 } 
 .field-input:focus{
-  border-color: var(--button-list-color);
+border-color: var(--button-list-color);
 }
 .field-description {
-  font-size: 12px;
-  line-height: 1.17;
-  color: var(--customers-icon-color);
-  margin-top: 8px;
- 
+font-size: 12px;
+line-height: 1.17;
+color: var(--customers-icon-color);
+margin-top: 4px;
 }
 
 .input-icon{
-  fill: var(--body-text);
+fill: var(--body-text);
 position: absolute;
-bottom: -13px;
+bottom: -16px;
 left: 13px;
 transform: translateY(-100%);
 pointer-events: none;
@@ -721,7 +724,7 @@ border-radius: 4px;
 .comments-form::placeholder{
 color:rgba(46, 47, 66, 0.4);
 font-size: 12px;
-padding: 8px 16px;
+padding: 8px 12px;
 }
 
 .checkbox-descr{
