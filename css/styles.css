@@ -573,6 +573,7 @@ a {
   min-height: 576px;
   transform: translate(-50%, -50%);
   padding: 20px;
+  border-radius: 4px;
   background-color: var(--background-color);
   transition: transform var(--time-animation);
 }
@@ -669,7 +670,7 @@ border-radius: 4px;
 }
 .comments-form::placeholder{
 color:rgba(46, 47, 66, 0.4);
-font-size: 14px;
+font-size: 12px;
 padding: 8px 16px;
 }
 
