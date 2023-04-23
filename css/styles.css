@@ -428,6 +428,9 @@ a {
 .first-footer {
   margin-right: 120px;
 }
+.social-footer{
+  margin-right: 80px;
+}
 .social-media-suptitle {
   font-weight: 500;
   font-size: 16px;
@@ -473,6 +476,54 @@ a {
 .cards-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+/* ---------- Subscribe footer -------------- */
+.subscribe-suptitle{
+  font-weight: 500; 
+  font-size: 16px; 
+  line-height: 1.5; 
+  letter-spacing: 0.02em; 
+  color: var(--background-color);
+  margin-bottom: 16px;
+}
+.subscribe-form{
+  display: flex;
+  gap: 24px;
+
+}
+.subscribe-input{
+width: 264px;
+height: 40px;
+border-radius: 4px;
+outline: none;
+border: 1px solid var(--background-color);
+border-radius: 4px;
+background-color: var(--second-background-color);}
+
+.subscribe-input::placeholder{
+font-size: 12px;
+padding: 8px 16px;
+color: var(--background-color);
+}
+.subscribe-btn{
+  display: flex;
+  gap: 16px;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  color: var(--background-color);
+  background-color: var(--button-list-color);
+  width: 165px;
+  height: 40px;
+  border-radius: 4px;
+  transition:  background-color var(--time-animation);
+}
+.subscribe-icon{
+ fill: var(--button-list-background);
+}
+.subscribe-btn:hover,
+.subscribe-btn:focus{
+  background-color: var(--selection-color);
 }
 /* ============== Porfolio ==================== */
 .list-container {
@@ -608,14 +659,13 @@ a {
 /* ========= Modal marking =========== */
 .modal-title {
 display: block;
-font-size: 12px;
+font-size: 14px;
 text-align: center;
 text-transform: uppercase;
 margin-top: 56px;
-font-size: 14px;
 }
 .modal-form {
-  margin-top: 16px;
+ 
 }
 .label-field {
   display: flex;
@@ -633,7 +683,7 @@ font-size: 14px;
   box-shadow: 2px;
   transition:  border-color var(--time-animation);
 }
-.field-input:focus + .input-icon{
+.field-input:focus+.input-icon{
  fill: var(--button-list-color);
 } 
 .field-input:focus{
